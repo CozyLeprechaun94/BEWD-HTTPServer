@@ -124,7 +124,7 @@ public class ConnectionHandler {
 
 
         header = header.replace("{{CONTENT_LENGTH}}", Integer.toString(90));
-
+        setContentLength(header, filename);
         System.out.println("-> Responded with the following HTTP-headers:");
         System.out.println(header);
         return header;

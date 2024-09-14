@@ -1,0 +1,9 @@
+Vraag 1) Een get request
+Vraag 2)
+    - HTTP/1.1 200 OK
+    - Date: Sat, 14 Sep 2024 14:09:21 +0200
+    - HttpServer: Simple DEA Webserver
+    - Content-Length: 90
+    - Content-Type: text/html
+Vraag 4) Het komt door de content length die op de string van 90 stond.
+Vraag 5) De
