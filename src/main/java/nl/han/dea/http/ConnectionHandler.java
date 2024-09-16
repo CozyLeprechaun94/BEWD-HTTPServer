@@ -123,8 +123,11 @@ public class ConnectionHandler {
                 .replace("{{HTTP_STATUS}}", status);
 
 
-        header = header.replace("{{CONTENT_LENGTH}}", Integer.toString(90));
-        setContentLength(header, filename);
+        if (filename == null) { // This is a special case for the 404 response
+            header = header.replace("{{CONTENT_LENGTH}}", Integer.toString(90));
+        } else {
+            header = setContentLength(header, filename); //
+        }
         System.out.println("-> Responded with the following HTTP-headers:");
         System.out.println(header);
         return header;

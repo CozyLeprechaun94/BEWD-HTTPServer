@@ -17,7 +17,7 @@ public class HttpServer {
     public void startServer() {
         openServerSocket();
 
-        while (true) {
+        while (true) { // This is an infinite loop that will keep the server running until it is manually stopped
             Socket clientSocket;
             try {
                 // The accept() method is a "blocking" method. This means that when it is called, the execution will

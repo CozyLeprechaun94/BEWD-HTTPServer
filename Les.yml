@@ -1,0 +1,34 @@
+HTTP: Hyper Text Transfer Protocol
+HTTP STATUS CODES:
+  1xx: Informational
+  2xx: Success
+  3xx: Redirection
+  4xx: Client Error (Page not found)
+  5xx: Server Error
+HTTP METHODS:
+  GET: Retrieve data from the server
+  POST: Send data to the server
+  PUT: Update data on the server
+  DELETE: Delete data from the server
+  PATCH: Update data partially on the server
+  OPTIONS: Get information about the communication options
+  HEAD: Get the headers of the response
+  CONNECT: Establish a connection to the server
+  TRACE: Get the path of the request
+  LINK: Create a link to the resource
+  UNLINK: Remove the link to the resource
+HTTP algemeen:
+  - Request en response
+  - GET
+  - POST
+  - Body / payload
+  - Headers
+  - Server
+  - Client:
+      - Client word gedefinieerd doormiddel van een request naar de server sturen. dan ben je een client.
+      - De Client is de browser dat doet een stuk software.
+      - De eindgebruiker is degene die de client bestuurt
+State:
+ - Stateless: De server houdt geen informatie bij over de client
+ - Stateful: De server houdt informatie bij over de client
+Socket: Een socket is een communicatie-eindpunt tussen twee computers

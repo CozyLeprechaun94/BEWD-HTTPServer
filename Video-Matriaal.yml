@@ -1,7 +1,0 @@
-HTTP: Hyper Text Transfer Protocol
-HTTP STATUS CODES:
-    1xx: Informational
-    2xx: Success
-    3xx: Redirection
-    4xx: Client Error (Page not found)
-    5xx: Server Error
